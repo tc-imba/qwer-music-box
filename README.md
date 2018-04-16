@@ -1,17 +1,38 @@
-# electron-react-boilerplate
+# QWER Music Box
 
-## Install
+## Introduction
+
+QWER Music Box is a music player built under electron, supports Windows, Linux and OS X.
+
+It is aiming to make a (R)eborn of three popular music players in China.
+
++ Q(Q) Music
++ Ku(W)o Music
++ Net(E)ase Cloud Music
+
+Other music players would be supported in the future.
+
++ KuGou Music
++ XiaMi Music
+
+Almost all of the players listed above (except NetEase Cloud Music) doesn't provide a client on Linux.
+That's why this project is started.
+
+## Releases
+
+## Development
+
+### Install
 
 * **Note: requires a node version >= 7 and an npm version >= 4.**
-* **If you have installation or compilation issues with this project, please see [our debugging guide](https://github.com/chentsulin/electron-react-boilerplate/issues/400)**
 
 ```bash
-$ git clone https://github.com/chentsulin/qwer-music-box
+$ git clone https://github.com/tc-imba/qwer-music-box
 $ cd qwer-music-box
 $ yarn
 ```
 
-## Run
+### Run
 
 Start the app in the `dev` environment. This starts the renderer process in [**hot-module-replacement**](https://webpack.js.org/guides/hmr-react/) mode and starts a webpack dev server that sends hot updates to the renderer process:
 
@@ -26,7 +47,7 @@ $ npm run start-renderer-dev
 $ npm run start-main-dev
 ```
 
-## Packaging
+### Packaging
 
 To package apps for the local platform:
 
